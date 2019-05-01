@@ -1,0 +1,284 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.container
+{
+    width: 1250px;
+    margin: auto;
+
+}
+.header
+{
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    position: fixed;
+    
+}
+.header .logo
+{
+    float: left;
+}
+.header .logo h3
+{
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+.header .nav
+{
+    float: right;
+}
+.header .nav ul li
+{
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+}
+.header .nav ul li a
+{
+    font-size: 20px;
+    color: #ddd;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.header .nav ul li a:hover
+{
+    color: #fff;
+}
+.clear{clear: both;}
+/* about */
+.about
+{
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.about p
+{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-top: 190px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+    
+}
+
+.about button
+{
+    background-color: #d84780;
+    color: #fff;
+    text-align: center;
+    border: none;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.about button:hover
+{
+    background-color: #fff;
+    color: #d84780;
+    transition: all .4s ease-in-out;
+}
+
+/* start blog */
+.blog
+{
+    width: 100%;
+    height: 1450px;
+    background-color: #222;
+    padding: 30px 0px 50px 0;
+}
+.blog .part
+{
+    width: 30%;
+    padding: 20px;
+    float: left;
+    
+    
+}
+.blog .part img
+{
+    width: 100%;
+}
+
+
+.blog .part p
+{
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    color: #969393;
+    line-height: 1,7;
+    
+}
+
+.blog .part button
+{
+    background-color: #d84780;
+    color: #fff;
+    text-align: center;
+    border: none;
+    width: 165px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.blog .part button:hover
+{
+    background-color: #fff;
+    color: #d84780;
+    border: 2px solid #d84780;
+    transition: all .3s ease-in-out;
+}
+
+.bord
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* start sec3 */
+.blog .writing i
+{
+    float: left;
+    height: 100%;
+    width: 50px;
+    padding-right: 20px;
+    
+}
+.blog .writing
+{
+    width: 40%;
+    height: 240px;
+    color: #fff;
+    float: left;
+    margin: 2%;
+    padding: 20px;
+}
+.blog .writing h2
+{
+    margin-bottom: 20px;
+}
+
+.blog .writing p
+{
+    line-height: 1.6;
+    color: #888;
+    font-size: 15px;
+}
+
+.hr
+{
+    width: 40%;
+}
+/* start contact */
+.contact
+{
+    width: 100%;
+    height: 700px;
+    background-color: #d84780;
+    padding-top: 20px 0;
+    color: #fff;
+}
+
+.detail
+{
+    width: 800px;
+    margin: auto;
+}
+.contact
+{
+    text-align: center;
+    
+}
+.contact h2
+{
+    font-size: 30px;
+    word-spacing: 5px;
+}
+.contact p
+{
+    line-height: 1,7;
+    font-size: 16px;
+    padding: 20px;
+    margin-left: 50px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+}
+.contact input, .contact textarea
+{
+    width:100%;
+    height: 40px;
+    padding: 12px;
+    margin: 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    
+}
+
+.contact textarea
+{
+    width: 100%;
+    height: 200px;
+}
+form button
+{
+    outline: 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-left: 25px;
+}
+form button:hover
+{
+    background-color: #fff;
+    color: #d84780;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: #222;
+    color: #777;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer ul li
+{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
